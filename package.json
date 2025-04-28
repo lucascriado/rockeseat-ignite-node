@@ -1,0 +1,8 @@
+{
+  "name": "rockeseat-ignite-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lucascriado/rockeseat-ignite-node.git",
+  "author": "lucascriado <lucascriado33@gmail.com>",
+  "license": "MIT"
+}
