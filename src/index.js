@@ -32,6 +32,15 @@ app.post('/courses', (req, res) => {
 });
 
 app.put('/courses/:id', (req, res) => {
+    const params = req.params
+    console.log(params)
+
+    // -> para poder acessar esse array 
+    // tu poderia usar essa metodologia.
+
+    const { id } = req.params
+    console.log(id)
+
     return res.json([
         'Node.js + Docker',
         'React.js',
